@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3019938D2050553900F6F6F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3019938C2050553900F6F6F2 /* main.cpp */; };
+		301993B720505DDF00F6F6F2 /* genneteq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3019939D2050555E00F6F6F2 /* genneteq.cpp */; };
+		301993B820505DDF00F6F6F2 /* genneteq.h in Sources */ = {isa = PBXBuildFile; fileRef = 3019939B2050555E00F6F6F2 /* genneteq.h */; };
+		301993BA20505DDF00F6F6F2 /* gneFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3019939A2050555E00F6F6F2 /* gneFlow.cpp */; };
+		301993BB20505DDF00F6F6F2 /* gneInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3019939C2050555E00F6F6F2 /* gneInit.cpp */; };
+		301993BC20505DDF00F6F6F2 /* gnePivot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301993A22050555F00F6F6F2 /* gnePivot.cpp */; };
+		301993BD20505DDF00F6F6F2 /* gnePivotRules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3019939E2050555E00F6F6F2 /* gnePivotRules.cpp */; };
+		301993BE20505DDF00F6F6F2 /* gnePotential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301993932050555E00F6F6F2 /* gnePotential.cpp */; };
+		301993BF20505DDF00F6F6F2 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3019939F2050555E00F6F6F2 /* graph.cpp */; };
+		301993C020505DDF00F6F6F2 /* graph.h in Sources */ = {isa = PBXBuildFile; fileRef = 301993972050555E00F6F6F2 /* graph.h */; };
+		301993C220505DDF00F6F6F2 /* main.h in Sources */ = {isa = PBXBuildFile; fileRef = 301993942050555E00F6F6F2 /* main.h */; };
+		301993C320505DDF00F6F6F2 /* matrix.h in Sources */ = {isa = PBXBuildFile; fileRef = 301993A02050555F00F6F6F2 /* matrix.h */; };
+		301993C420505DDF00F6F6F2 /* trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301993952050555E00F6F6F2 /* trees.cpp */; };
+		301993C520505DDF00F6F6F2 /* trees.h in Sources */ = {isa = PBXBuildFile; fileRef = 301993A12050555F00F6F6F2 /* trees.h */; };
+		301993C620505DDF00F6F6F2 /* variables.h in Sources */ = {isa = PBXBuildFile; fileRef = 301993962050555E00F6F6F2 /* variables.h */; };
+		301993CE20505F6200F6F6F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301993CC20505E9A00F6F6F2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +38,22 @@
 
 /* Begin PBXFileReference section */
 		301993892050553900F6F6F2 /* gennet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gennet; sourceTree = BUILT_PRODUCTS_DIR; };
-		3019938C2050553900F6F6F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		301993932050555E00F6F6F2 /* gnePotential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gnePotential.cpp; sourceTree = "<group>"; };
+		301993942050555E00F6F6F2 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		301993952050555E00F6F6F2 /* trees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trees.cpp; sourceTree = "<group>"; };
+		301993962050555E00F6F6F2 /* variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variables.h; sourceTree = "<group>"; };
+		301993972050555E00F6F6F2 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		301993992050555E00F6F6F2 /* gneDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gneDebug.cpp; sourceTree = "<group>"; };
+		3019939A2050555E00F6F6F2 /* gneFlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gneFlow.cpp; sourceTree = "<group>"; };
+		3019939B2050555E00F6F6F2 /* genneteq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genneteq.h; sourceTree = "<group>"; };
+		3019939C2050555E00F6F6F2 /* gneInit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gneInit.cpp; sourceTree = "<group>"; };
+		3019939D2050555E00F6F6F2 /* genneteq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = genneteq.cpp; sourceTree = "<group>"; };
+		3019939E2050555E00F6F6F2 /* gnePivotRules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gnePivotRules.cpp; sourceTree = "<group>"; };
+		3019939F2050555E00F6F6F2 /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		301993A02050555F00F6F6F2 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		301993A12050555F00F6F6F2 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		301993A22050555F00F6F6F2 /* gnePivot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gnePivot.cpp; sourceTree = "<group>"; };
+		301993CC20505E9A00F6F6F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +86,22 @@
 		3019938B2050553900F6F6F2 /* gennet */ = {
 			isa = PBXGroup;
 			children = (
-				3019938C2050553900F6F6F2 /* main.cpp */,
+				301993CC20505E9A00F6F6F2 /* main.cpp */,
+				3019939D2050555E00F6F6F2 /* genneteq.cpp */,
+				3019939B2050555E00F6F6F2 /* genneteq.h */,
+				301993992050555E00F6F6F2 /* gneDebug.cpp */,
+				3019939A2050555E00F6F6F2 /* gneFlow.cpp */,
+				3019939C2050555E00F6F6F2 /* gneInit.cpp */,
+				301993A22050555F00F6F6F2 /* gnePivot.cpp */,
+				3019939E2050555E00F6F6F2 /* gnePivotRules.cpp */,
+				301993932050555E00F6F6F2 /* gnePotential.cpp */,
+				3019939F2050555E00F6F6F2 /* graph.cpp */,
+				301993972050555E00F6F6F2 /* graph.h */,
+				301993942050555E00F6F6F2 /* main.h */,
+				301993A02050555F00F6F6F2 /* matrix.h */,
+				301993952050555E00F6F6F2 /* trees.cpp */,
+				301993A12050555F00F6F6F2 /* trees.h */,
+				301993962050555E00F6F6F2 /* variables.h */,
 			);
 			path = gennet;
 			sourceTree = "<group>";
@@ -88,6 +132,9 @@
 		301993812050553900F6F6F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Raghava Sasikanth Goteti";
 				TargetAttributes = {
@@ -119,7 +166,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3019938D2050553900F6F6F2 /* main.cpp in Sources */,
+				301993C220505DDF00F6F6F2 /* main.h in Sources */,
+				301993C320505DDF00F6F6F2 /* matrix.h in Sources */,
+				301993C020505DDF00F6F6F2 /* graph.h in Sources */,
+				301993C620505DDF00F6F6F2 /* variables.h in Sources */,
+				301993C520505DDF00F6F6F2 /* trees.h in Sources */,
+				301993B820505DDF00F6F6F2 /* genneteq.h in Sources */,
+				301993CE20505F6200F6F6F2 /* main.cpp in Sources */,
+				301993BF20505DDF00F6F6F2 /* graph.cpp in Sources */,
+				301993C420505DDF00F6F6F2 /* trees.cpp in Sources */,
+				301993B720505DDF00F6F6F2 /* genneteq.cpp in Sources */,
+				301993BB20505DDF00F6F6F2 /* gneInit.cpp in Sources */,
+				301993BA20505DDF00F6F6F2 /* gneFlow.cpp in Sources */,
+				301993BE20505DDF00F6F6F2 /* gnePotential.cpp in Sources */,
+				301993BC20505DDF00F6F6F2 /* gnePivot.cpp in Sources */,
+				301993BD20505DDF00F6F6F2 /* gnePivotRules.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +293,17 @@
 		301993912050553900F6F6F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKASE4FLL7;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-lgsl",
+					"-lgslcblas",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,8 +311,17 @@
 		301993922050553900F6F6F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKASE4FLL7;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-lgsl",
+					"-lgslcblas",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
